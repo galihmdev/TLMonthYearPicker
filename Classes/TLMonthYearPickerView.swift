@@ -48,7 +48,7 @@ public class TLMonthYearPickerView: UIControl, UIPickerViewDataSource, UIPickerV
     
     /// Locale value, default is device locale
     fileprivate var _locale: Locale?
-    var locale: Locale! {
+    public var locale: Locale! {
         get {
             if self._locale != nil {
                 return self._locale!
